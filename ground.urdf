@@ -24,10 +24,10 @@
   <link name="ground">
     <inertial>
       <mass value="1"/>
-      <inertia ixx="1" ixy="0.5" ixz="0.5" iyy="1" iyz="0.5" izz="1"/>
+      <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
     </inertial>
     <visual>
-      <origin xyz="0 0 1"/>
+      <origin xyz="0 0 0"/>
       <geometry>
         <box size="5 1 0.1"/>
       </geometry>
@@ -36,7 +36,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="0 0 1"/>
+      <origin xyz="0 0 0"/>
       <geometry>
         <box size="5 1 0.1"/>
       </geometry>
@@ -77,7 +77,7 @@
     <child link="pole2" />
   </joint>
   <joint name="rot1" type="continuous">
-    <origin xyz="0 0 0" />
+    <origin xyz="0 0 1" />
     <parent link="pole1" />
     <child link="ground" />
   </joint>
