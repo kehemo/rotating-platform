@@ -32,7 +32,7 @@
         <box size="5 1 0.1"/>
       </geometry>
       <material name="greeny">
-      	<color rgba="0.1953 0.6563 0.3203 1" />
+        <color rgba="0.1953 0.6563 0.3203 1" />
       </material>
     </visual>
     <collision>
@@ -85,4 +85,8 @@
     <parent link="world" />
     <child link="ground1" />
   </joint>
+  <frame link="ground" name="front_left_grip" xyz="0.101000 0.036250 0"/>
+  <frame link="ground" name="front_right_grip" xyz="0.101000 -0.036250 0"/>
+  <frame link="ground" name="back_left_grip" xyz="-0.101000 0.036250 0"/>
+  <frame link="ground" name="back_right_grip" xyz="-0.101000 -0.036250 0"/>
 </robot>
