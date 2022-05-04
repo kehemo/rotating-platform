@@ -85,8 +85,5 @@
     <parent link="world" />
     <child link="ground1" />
   </joint>
-  <frame link="ground" name="front_left_grip" xyz="0.101000 0.036250 0"/>
-  <frame link="ground" name="front_right_grip" xyz="0.101000 -0.036250 0"/>
-  <frame link="ground" name="back_left_grip" xyz="-0.101000 0.036250 0"/>
-  <frame link="ground" name="back_right_grip" xyz="-0.101000 -0.036250 0"/>
+  <frame link="ground" name="bridge_frame"/>
 </robot>
