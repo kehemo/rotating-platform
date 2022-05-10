@@ -23,8 +23,8 @@
   </link>
   <link name="ground">
     <inertial>
-      <mass value="100"/>
-      <inertia ixx="100" ixy="0" ixz="0" iyy="100" iyz="0" izz="100"/>
+      <mass value="5"/>
+      <inertia ixx="5" ixy="0" ixz="0" iyy="5" iyz="0" izz="5"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0"/>
